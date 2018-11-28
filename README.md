@@ -32,7 +32,9 @@
 自动修改配置文件
 已chattr +i /serverspeeder/etc/apx*禁止修改配置文件，可以不用加hosts了
 目前只支持CentOS，ubuntu和debian。如果有其他系统支持，可以到[91yun.org我的博客](http://www.91yun.org/serverspeeder91yun)手动下载其他系统的安装包
+
 版本
+
 CentOS/37/3.12.9-x86_64-linode37/x64/3.10.54.8/0/serverspeeder_2495
 CentOS/5/2.6.18-128.el5PAE/x32/3.10.39.8/0/serverspeeder_2047
 CentOS/5/2.6.18-128.el5PAE/x32/3.10.45.0/0/serverspeeder_2153
@@ -646,5 +648,7 @@ CentOS/7.0/4.1.5-x86_64-linode61/x64/3.10.61.0/0/serverspeeder_3151
 CentOS/7.1/3.10.0-229.1.2.el7.x86_64/x64/3.10.61.12/0/serverspeeder_2727
 CentOS/7.1/3.10.0-229.1.2.el7.x86_64/x64/3.11.20.4/0/serverspeeder_3283
 CentOS/7.2/3.10.0-327.el7.x86_64/x64/3.11.20.5/0/serverspeeder_72327
+
 版本试例
+
 wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder-v.sh && bash serverspeeder-v.sh CentOS 7.2 3.10.0-327.el7.x86_64 x64 3.11.20.5 serverspeeder_72327
