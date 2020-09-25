@@ -24,6 +24,7 @@
 # 锐速破解版卸载方法：
     chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f
 
+如果出现错误：The name of network interface is not eth0, please retry after changing the name.   那么就需要安装 net-tools;以debian为例，运行命令apt-get update -y && apt-get install net-tools -y
 
 锐速破解版功能：
 如果内核完全匹配就会自动下载安装。
